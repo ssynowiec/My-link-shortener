@@ -1,7 +1,12 @@
 <?php 
     session_start();
 
-    
+    function check($prefix)
+    {
+        $condition = mysqli_query($mysqli, "SELECT * FROM urls WHERE");
+    }
+
+
     if(is_null($_POST['url']))
     {
         header('Location: index.php');
