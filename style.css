@@ -1,0 +1,128 @@
+*
+{
+    margin: 0;
+}
+
+header
+{
+    height: 10vh;
+}
+
+main
+{
+    width: 100vw;
+    height: 85vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputs
+{
+    float: left;
+    margin-right: 2vw;
+}
+
+.input
+{
+    height: 5vh;
+    width: 60vw;
+    border: 0;
+    border-bottom: 2px solid #000;
+    outline: 0;
+    font-size: large;
+}
+
+input[name='my-prefix']
+{
+    height: 3vh;
+    width: 15vw;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
+
+input[type="submit"]
+{
+    width: 20vh;
+    height: 7vh;
+    background-color: darkorange;
+    border: 0;
+    font-size: large;
+}
+
+input#short-link
+{
+    width: 15vw !important;
+    border: 0;
+    outline: 0;
+    margin-right: 0.5vw;
+}
+
+input[type="submit"]:hover
+{
+    cursor: pointer;
+}
+
+.short-url
+{
+    width: 25vw;
+    height: 5vh;
+    background-color: red;
+    line-height: 5vh;
+}
+
+.short-url i 
+{
+    font-size: x-large;
+}
+
+input#short-link:hover
+{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+footer
+{
+    width: 100vw;
+    height: 5vh;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer__copyright
+{
+    height: 5vh;
+    text-align: center;
+    color: beige;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 5vh;
+}
+
+.footer__copy-link
+{
+    text-decoration: none;
+    font-family: 'Lato';
+    color: darkorange;
+}
+
+.footer__copy-link:visited
+{
+    color: dodgerblue;
+}
+
+.footer__copy-link:hover,
+.footer__copy-link:focus,
+.footer__copy-link:active
+{
+    color: cadetblue;
+}
